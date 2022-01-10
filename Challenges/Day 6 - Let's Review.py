@@ -3,9 +3,8 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 
 S = int(input()) 
-N = input() 
-T = input() 
-
-print(N[::S],N[1::S])
-print(T[::S],T[1::S])
-
+ 
+for x in range(S):
+    N = input() 
+    print(N[::2],N[1::2])
+    
